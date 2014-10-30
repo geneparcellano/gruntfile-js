@@ -275,6 +275,7 @@ module.exports = function (grunt) {
 			'less',
 			'copy:server',
 			'connect:livereload',
+			'open:dev', //open chrome instead of default browser
 			'watch'
 		]);
 	});
