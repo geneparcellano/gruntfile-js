@@ -54,7 +54,7 @@ module.exports = function (grunt) {
 			},
 			livereload: {
 				options: {
-					open: true,
+					open: false, //set to false to prevent opening default browser
 					base: [
 						'.tmp',
 						'<%= yeoman.app %>'
